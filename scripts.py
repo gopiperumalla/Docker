@@ -47,7 +47,7 @@ ip_address = socket.gethostbyname(hostname)
 # Write results to output file
 os.makedirs(os.path.dirname(output_path), exist_ok=True)
 with open(output_path, 'w') as output_file:
-    output_file.write("A text file made by Samraysh Pellakur\n\n")
+    output_file.write("A text file made by Gopi Krishna Perumalla\n\n")
     output_file.write(f"Total words in IF.txt: {count_file1}\n")
     output_file.write(f"Total words in AlwaysRememberUsThisWay.txt: {count_file2}\n")
     output_file.write(f"Grand total of words: {grand_total}\n\n")
