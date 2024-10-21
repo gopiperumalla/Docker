@@ -6,14 +6,14 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: cloud-assignment-v2
+      app: cloud-assignment-3
   template:
     metadata:
       labels:
-        app: cloud-assignment-v2
+        app: cloud-assignment-3
     spec:
       containers:
-      - name: cloud-assignment-v2
-        image: cloud-assignment-v2:latest # Replace with your Docker image name
+      - name: cloud-assignment-3
+        image: cloud-assignment-3:latest # Replace with your Docker image name
         ports:
         - containerPort: 8080
